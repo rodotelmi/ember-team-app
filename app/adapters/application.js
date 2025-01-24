@@ -1,7 +1,8 @@
 import RESTAdapter from '@ember-data/adapter/rest';
+import ENV from '../config/environment';
 
 export default class ApplicationAdapter extends RESTAdapter {
-  host = 'http://localhost:3000'; // Replace with your LoopBack API URL
+  host = ENV.host;
   namespace = 'api'; // Adjust if your API has a namespace
 
   // future improvemen for retrieving teams include with members ?
