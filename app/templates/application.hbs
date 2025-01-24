@@ -1,0 +1,29 @@
+{{page-title "Bdtest"}}
+
+<body>
+  <nav class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+    <div class="px-3 py-3 lg:px-5 lg:pl-3 flex justify-center">
+      <div class="flex justify-between w-full lg:w-3/4">
+        <a href="/" class="flex ml-2 md:mr-24">
+          <img
+            src="https://d1pnnwteuly8z3.cloudfront.net/images/87828974-c7b9-4ba7-b0d4-916f20a03f81/193ff0aa-94a7-4f7b-a469-5eedb3cd4196.png"
+            class="h-8 mr-3" alt="Logo" />
+        </a>
+        <div class="flex flex-row gap-1">
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="w-full h-screen bg-gray-100 flex justify-center">
+    <div class="mt-24 w-full lg:w-3/4">
+      <div class="text-3xl text-semibold text-gray-700">Simple Team Management App</div>
+      <main class="container mt-4 flex w-full">
+        <div class="w-full bg-white rounded-lg shadow-md p-6 mr-4">
+          {{outlet}}
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
